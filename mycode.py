@@ -10,6 +10,10 @@ df=pd.DataFrame(data)
 new_row1 ={'name':'new1','age':34,'City':'city1'}
 df.loc[len(df.index)]=new_row1
 
+#adding another new row
+new_row2 ={'name':'new2','age':22,'City':'city2'}
+df.loc[len(df.index)]=new_row2
+
 dir_name='data'
 os.makedirs(dir_name,exist_ok=True)
 
